@@ -15,7 +15,7 @@ const deleteJob = async (req, res) => {
   res.send('delete job')
 }
 
-GitModule.exports = {
+module.exports = {
   getAllJobs,
   getJob,
   createJob,

@@ -5,7 +5,7 @@ const login = async (req, res) => {
   res.send('login user')
 }
 
-GitModule.exports = {
+module.exports = {
   register,
   login
 }
